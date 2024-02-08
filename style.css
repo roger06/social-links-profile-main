@@ -16,20 +16,23 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 7px 0 0 0 ;
     width: 100%;
     /* border: 1px dashed white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 ul li {
-    width: 255px;
+    width: 80%;
     background: #333333;
     margin-bottom: 10px;
     display: flex;
@@ -38,16 +41,22 @@ ul li {
     justify-content: center;
     height: 30px;
     font-size:0.6em;
+    border-radius: 5px;
+}
+
+ul li:last-of-type {
+    margin-bottom: 10px;
 }
 
 
 h1 {
     font-size: 1em;
     color: white;
+    margin-bottom: 3px;
 }
 
 h2{
-    margin: 0;
+    margin: 0 0 7px 0 ;
     color: hsl(75, 94%, 57%);
     font-size:0.6em;
 }
